@@ -266,7 +266,7 @@ li {
 .why-choose-sec-card {
   border-radius: 16px;
   padding: 32px;
-  height: 284px;
+  /* height: 284px; */
   width: 100%;
 }
 
