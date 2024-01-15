@@ -1,5 +1,55 @@
 @media screen and (max-width: 600px) {
-  h1 {
-    color: blue;
+  .container {
+    width: 90%;
+    /* border: 1px solid red; */
+  }
+
+  .newsletter-sec {
+    flex-direction: column;
+  }
+
+  .why-choose-sec-cards,
+  .img-container,
+  .popular-tour-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-sec-form {
+    flex-direction: column;
+  }
+
+  .banner-sec {
+    width: 90%;
+    height: 100vh;
+  }
+
+  .banner-sec-form {
+    width: 90%;
+  }
+
+  #where,
+  #when,
+  #type,
+  #search-btn {
+    padding: 32px;
+  }
+
+  .banner-sec-element p {
+    color: #fff;
+    width: 80%;
+
+    margin: 24px auto 48px;
+  }
+
+  .newsletter-sec-imgs img {
+    width: 100%;
+  }
+
+  .popular-tour-sec-img img {
+    width: 100%;
+  }
+
+  .badge {
   }
 }

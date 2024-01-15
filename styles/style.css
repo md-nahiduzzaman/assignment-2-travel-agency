@@ -14,25 +14,24 @@ body {
   width: 60%;
   max-width: 1170px;
   margin: 0 auto;
-  border: 1px solid lightgray;
-  min-height: 200px;
+  /* border: 1px solid lightgray; */
 }
 
 h1 {
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
 }
 
 h3 {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
 h5 {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 
@@ -57,12 +56,92 @@ li {
   padding: 16px 32px;
 }
 
+/* banner sec */
+.banner-sec {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 75vh; */
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  /* display: none; */
+}
+
+.banner-sec-element p {
+  text-align: center;
+
+  color: #fff;
+  width: 60%;
+
+  margin: 24px auto 48px;
+}
+
+.banner-sec-form {
+  border-radius: 8px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  width: fit-content;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#where,
+#when,
+#type,
+#search-btn {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+
+  width: 100%;
+  padding: 16px 32px;
+
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#search-btn {
+  color: #fff;
+  border-radius: 8px;
+  background: #ff5400;
+}
+.fa-solid {
+  margin-right: 8px;
+}
+
 /* popular tour */
+
 .popular-tour-sec {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  /* display: none; */
 }
 
 li {
@@ -80,6 +159,7 @@ li {
 .choose-destination-sec {
   padding-top: 100px;
   padding-bottom: 100px;
+  /* display: none; */
 }
 .choose-destination-sec-element {
   text-align: center;
@@ -138,6 +218,7 @@ li {
 .why-choose-sec {
   padding-top: 100px;
   padding-bottom: 100px;
+  /* display: none; */
 }
 
 .why-choose-sec-element {
@@ -207,6 +288,7 @@ li {
   gap: 24px;
   padding-top: 100px;
   padding-bottom: 100px;
+  /* display: none; */
 }
 
 .newsletter-sec-element {
@@ -286,7 +368,6 @@ fieldset {
   right: 10px;
 
   transform: rotate(-19.628deg);
-  flex-shrink: 0;
 }
 
 .badge p {
