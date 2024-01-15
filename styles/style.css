@@ -36,11 +36,43 @@ h5 {
   font-weight: 800;
 }
 
-p {
+p,
+li {
   color: #5a5a5d;
   font-size: 1rem;
   font-weight: 400;
   line-height: 162.5%; /* 26px */
+}
+
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+
+  border: 0;
+  border-radius: 8px;
+  background: #ff5400;
+
+  padding: 16px 32px;
+}
+
+/* popular tour */
+.popular-tour-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.popular-tour-sec-element h3,
+.popular-tour-sec-element p,
+.popular-tour-sec-element li {
+  margin-bottom: 24px;
 }
 
 /* choose your destination */
