@@ -262,6 +262,23 @@ li {
   grid-row: 3 / span 1;
 }
 
+.single-img-container {
+  position: relative;
+  text-align: center;
+  /* color: #fff; */
+}
+
+.text-center {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 800;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* why choose us */
 
 .why-choose-sec {
