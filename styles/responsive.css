@@ -10,7 +10,8 @@
 
   .why-choose-sec-cards,
   .img-container,
-  .popular-tour-sec {
+  .popular-tour-sec,
+  .partner-sec-imgs {
     display: flex;
     flex-direction: column;
   }
@@ -75,7 +76,23 @@
 
   .choose-destination-sec-element p,
   .why-choose-sec-element p,
-  .footer-sec p {
+  .footer-sec p,
+  .partner-sec-element p {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .brand-logo {
+    /* height: 40px; */
+    filter: grayscale(0);
+    opacity: 100%;
+  }
+
+  .footer-sec {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

@@ -346,6 +346,37 @@ li {
   width: 100%;
 }
 
+/* partner */
+.partner-sec {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.partner-sec-element p {
+  width: 75%;
+  margin: 24px auto 48px;
+}
+
+.partner-sec-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.brand-logo {
+  height: 40px;
+  filter: grayscale(100%);
+  opacity: 80%;
+}
+
+.brand-logo:hover {
+  filter: grayscale(0);
+  opacity: 100%;
+}
+
 /* newsletter */
 
 .newsletter-sec {
@@ -433,12 +464,12 @@ fieldset {
   border-radius: 16px;
   background: #ff5400;
 
-  width: 324px;
+  /* width: 324px; */
   padding: 20px 40px;
 
   position: absolute;
 
-  bottom: 60px;
+  bottom: 40px;
   right: 10px;
 
   transform: rotate(-19.628deg);
@@ -486,6 +517,7 @@ footer {
 .footer-sec hr {
   opacity: 50%;
 }
+
 #copyright {
   margin-top: 50px;
 }
