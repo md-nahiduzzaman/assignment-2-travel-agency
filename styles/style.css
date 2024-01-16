@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 95%;
   max-width: 1170px;
   margin: 0 auto;
   /* border: 1px solid lightgray; */
@@ -54,6 +54,24 @@ li {
   background: #ff5400;
 
   padding: 16px 32px;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.logo-div h4 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.logo-div span {
+  color: #ff5400;
 }
 
 /* banner sec */
@@ -295,6 +313,8 @@ li {
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #ff5400;
+
+  width: 40%;
 }
 .newsletter-sec-element p {
   margin-top: 16px;
@@ -350,6 +370,11 @@ fieldset {
 
 .newsletter-sec-imgs {
   position: relative;
+  width: 60%;
+}
+
+.newsletter-sec-imgs img {
+  width: 100%;
 }
 
 .badge {

@@ -42,6 +42,10 @@
     margin: 24px auto 48px;
   }
 
+  .newsletter-sec-element,
+  .newsletter-sec-imgs {
+    width: 100%;
+  }
   .newsletter-sec-imgs img {
     width: 100%;
   }
