@@ -32,7 +32,7 @@
   #when,
   #type,
   #search-btn {
-    padding: 32px;
+    padding: 24px;
   }
 
   .banner-sec-element p {
@@ -63,6 +63,7 @@
     justify-content: space-between;
 
     height: 100px;
+  }
 
   .nav-links li {
     display: none;
@@ -70,5 +71,11 @@
 
   #menu-bar {
     display: flex;
+  }
+
+  .choose-destination-sec-element p,
+  .why-choose-sec-element p,
+  .footer-sec p {
+    width: 100%;
   }
 }
